@@ -2,12 +2,13 @@ package nintendo.test;
 
 
 import nintendo.model.Client;
-
 import java.time.LocalDate;
-
+import java.util.ArrayList;
+import java.util.List;
 import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
+
 
 public class Test {
 
@@ -21,13 +22,22 @@ public class Test {
 		
 		
 		Boutique boutique1 = new Boutique("Micromania","2","Rue de Paris", "Lille");
-		
+
+
 		Jeu jeu1 = new Jeu("Crimson Desert",ps, boutique1);
 		Jeu jeu2 = new Jeu("Expédition 33",xbox, boutique1);
 		Jeu jeu3 = new Jeu("Mario Party",wiiu, boutique1);
 		Jeu jeu4 = new Jeu("Mario 64",wiiu, boutique1);
 		Jeu jeu5 = new Jeu("Zelda: Breath of the wild",wiiu, boutique1);
 		
+
+		List<Jeu> listeAchat1 = new ArrayList<>();
+        listeAchat1.add(jeu3);
+        listeAchat1.add(jeu5);
+
+        // On affecte la liste au client avec le setter
+        client1.setAchatClient(listeAchat1);
+
 	}
 
 }
