@@ -6,16 +6,17 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import nintendo.model.Boutique;
-import nintendo.model.Console;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
+import nintendo.model.Salon;
 
 
 public class Test {
 
 	public static void main(String[] args) {
-		Console ps = new Console("Play Station",200.0,LocalDate.of(2015,01,01));
-		Console xbox = new Console("Xbox", 150.0,LocalDate.of(2018,01,01));
-		Console wiiu = new Console("WiiU",120.0, LocalDate.of(2012,01,01));
+		Salon ps = new Salon("Play Station",200.0,LocalDate.of(2015,01,01));
+		Salon xbox = new Salon("Xbox", 150.0,LocalDate.of(2018,01,01));
+		Hybride wiiu = new Hybride("WiiU",120.0, LocalDate.of(2012,01,01));
 		
 		Client client1 = new Client("Jean-Claude", "Van Damme");
 		Client client2 = new Client("Bernard", "L'Hermite");

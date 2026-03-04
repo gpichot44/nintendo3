@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Salon extends Console {
 
-	public Salon(String nom,int prix, LocalDate dateSortie) {
+	public Salon(String nom,double prix, LocalDate dateSortie) {
 		super(nom,prix,dateSortie);
 	
 	}
