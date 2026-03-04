@@ -4,9 +4,17 @@
   <artifactId>NintendoProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
   <properties>
-		<maven.compiler.target>21</maven.compiler.target>
-		<maven.compiler.source>21</maven.compiler.source>
-	</properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>21</maven.compiler.target>
+	<maven.compiler.source>21</maven.compiler.source>
+  </properties>
+
+  <dependencies>
+    <dependency>
+    	<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.26</version>
+    </dependency>
+  </dependencies>
 </project>
