@@ -2,6 +2,10 @@ package nintendo.test;
 
 
 import nintendo.model.Client;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
@@ -26,7 +30,12 @@ public class Test {
 		
 		Boutique boutique1 = new Boutique("Micromania","2","Rue de Paris", "Lille");
 		
+		List<Jeu> listeAchat1 = new ArrayList<>();
+        listeAchat1.add(jeu3);
+        listeAchat1.add(jeu5);
 
+        // On affecte la liste au client avec le setter
+        client1.setAchatClient(listeAchat1);
 	}
 
 }
