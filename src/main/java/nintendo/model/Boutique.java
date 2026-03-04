@@ -5,7 +5,7 @@ public class Boutique {
 	private String nom;
 	private Adresse adresse;
 	
-	public Boutique(String nom, int numero, String rue, String ville) {
+	public Boutique(String nom, String numero, String rue, String ville) {
 		this.nom = nom;
 		this.adresse=new Adresse(numero,rue,ville);
 	}
