@@ -2,16 +2,9 @@ package nintendo.test;
 
 
 import nintendo.model.Client;
-<<<<<<< HEAD
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-=======
-
-import java.util.ArrayList;
-import java.util.List;
-
->>>>>>> origin/feature/Samus/ModifCLient
 import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
@@ -29,12 +22,8 @@ public class Test {
 		
 		
 		Boutique boutique1 = new Boutique("Micromania","2","Rue de Paris", "Lille");
-		
-		List<Jeu> listeAchat1 = new ArrayList<>();
-        listeAchat1.add(jeu3);
-        listeAchat1.add(jeu5);
 
-<<<<<<< HEAD
+
 		Jeu jeu1 = new Jeu("Crimson Desert",ps, boutique1);
 		Jeu jeu2 = new Jeu("Expédition 33",xbox, boutique1);
 		Jeu jeu3 = new Jeu("Mario Party",wiiu, boutique1);
@@ -49,10 +38,6 @@ public class Test {
         // On affecte la liste au client avec le setter
         client1.setAchatClient(listeAchat1);
 
-=======
-        // On affecte la liste au client avec le setter
-        client1.setAchatClient(listeAchat1);
->>>>>>> origin/feature/Samus/ModifCLient
 	}
 
 }
