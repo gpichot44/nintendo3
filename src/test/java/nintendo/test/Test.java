@@ -36,7 +36,6 @@ public class Test {
         listeAchat1.add(jeu3);
         listeAchat1.add(jeu5);
 
-        // On affecte la liste au client avec le setter
         client1.setAchatClient(listeAchat1);
 
 	}
